@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModifyStudentActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstname_edittext"
+        android:ems="10"
+        android:hint="First Name">
+
+        <requestFocus/>
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/last_name_edittext"
+        android:ems="10"
+        android:hint="Last Name">
+
+        <requestFocus/>
+
+    </EditText>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_of_birth_edittext"
+        android:ems="10"
+        android:hint="Date of Birth">
+
+        <requestFocus/>
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender_edittext"
+        android:ems="10"
+        android:hint="Gender">
+
+        <requestFocus/>
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/postal_address_edittext"
+        android:ems="10"
+        android:hint="Postal Address">
+
+        <requestFocus/>
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email_address_edittext"
+        android:ems="10"
+        android:hint="Email Address">
+
+        <requestFocus/>
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_number_edittext"
+        android:ems="10"
+        android:hint="Contact Number">
+
+        <requestFocus/>
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_of_kin_edittext"
+        android:ems="10"
+        android:hint="Next of Kin">
+
+        <requestFocus/>
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_next_of_kin_edittext"
+        android:ems="10"
+        android:hint="Contact Of Next of Kin">
+
+        <requestFocus/>
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/faculty_edittext"
+        android:ems="10"
+        android:hint="Faculty">
+
+        <requestFocus/>
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/programme"
+        android:ems="10"
+        android:hint="Programme">
+
+        <requestFocus/>
+
+    </EditText>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/btn_update"
+            android:text="@string/update"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/btn_delete"
+            android:text="@string/delete"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Morapedi 17000504</string>
+    <string name="add_record">Add Record</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="add_title">Add_title</string>
+</resources>
